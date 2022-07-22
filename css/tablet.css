@@ -1,0 +1,12 @@
+/* RESPONSIVE FOR TABLET */
+@media screen and (max-width: 768px) {
+
+  /* Decrease padding */
+  #about #target {
+    padding: 50px 30px 10px;
+  }
+
+  #about #personal-info {
+    padding: 50px 30px 10px;
+  }
+}

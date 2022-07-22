@@ -1,0 +1,25 @@
+/* RESPONSIVE FOR MOBILE */
+@media screen and (max-width: 576px) {
+
+  #nav-bar a {
+    padding-left: 30px;
+    text-align: left;
+  }
+
+  #certificate .certificate-item {
+    margin-top: 0;
+  }
+
+  /* Change border position */
+  #certificate .certificate-item.last {
+    border-left: none;
+    border-top: 1px solid #d6c08d;
+    margin-top: 0;
+  }
+
+  /* Hide text in footer */
+  #footer span {
+    display: none;
+  }
+
+}
